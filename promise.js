@@ -27,7 +27,7 @@ fetch("http://localhost:3000/api/movies")
 const mustBe = async () => {
   const res = await fetch("http://localhost:3000/api/movies");
   const data = await res.json();
-  console.log(data, 'jjjjjjjjjjjjj');
+  console.log(data, 'trying git');
 }
 
 mustBe();
