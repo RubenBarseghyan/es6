@@ -23,6 +23,7 @@ fetch("http://localhost:3000/api/movies")
 .then((data)=>console.log(data))
 .catch((err) => console.log(err.message));
 
+
 const mustBe = async () => {
   const res = await fetch("http://localhost:3000/api/movies");
   const data = await res.json();
